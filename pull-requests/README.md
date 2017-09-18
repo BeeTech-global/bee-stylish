@@ -6,7 +6,7 @@ Code Review é um dos processos que mais exigem atenção da equipe e, logo, tem
 
 Às vezes, pode ser trabalhoso. Afinal, temos que, além de analisar o código, verificar se as peças da estrutura se encaixam e respeitam a arquitetura vigente, se não há falhas de segurança e etc.
 
-Também, uma maravilhosa ferramenta para ajudar a disseminar conhecimento e melhorar o código dos nossos coleguinhas.
+Também é uma maravilhosa ferramenta para ajudar a disseminar conhecimento e melhorar o código dos nossos coleguinhas.
 
 Este guia tem como objetivo despertar aquele bom senso que vive dentro de _você_.
 
@@ -137,7 +137,7 @@ O jovem não escreveu as mensagens de commit da maneira adequada, comprometeu-se
 
 ---
 
-Não deixe os comentários no vácuo. Se vossa senhoria não concorda com algum ponto levantado, responda a pessoa usando toda a sua argumentação Aristotélica da ousadia. Traga referências para a conversa! _(sem falácias, plz)_
+Não deixe os comentários no vácuo. Se vossa senhoria não concorda com algum ponto levantado, responda a pessoa usando toda a sua argumentação _Aristotélica_ da ousadia. Traga referências para a conversa! _(sem falácias, plz)_
 
 <p align="center">
   <img src="https://cdn.rawgit.com/Beetech-global/bee-stylish/master/pull-requests/comment-argument.jpg" alt="">
