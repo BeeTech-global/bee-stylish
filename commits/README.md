@@ -37,6 +37,8 @@ O formato do commit existem algumas convenções bem estabelecidas e que se bem 
 - Limitar o corpo da mensagem em 80 caracteres
 - Usar o corpo da mensagem para explicar o que e o por que ao invés de como
 
+basicamente o commit deve seguir a seguinte seguinte estrutura para ficar de forma apresentável tanto no log, tanto quando for para um pull request no github ou gitlab ou bitbucket:
+
 ```
 <tipo>(escopo): assunto
 
@@ -45,27 +47,21 @@ O formato do commit existem algumas convenções bem estabelecidas e que se bem 
 <rodapé>
 ```
 
-### Exemplo da messagem de commit
+Seguindo este padrão de estrutura podemos seguir o exemplo abaixo de como fazer um commit
+
+**Exemplo da messagem de commit**
 
 ```
 fix(listagem): adiciona serviço da api
 
 Adiciona o get aos serviços da api para garantir que a listagem, seja carregada de forma dinâmica e atualizada pela api
 
-Fixes #2310
+fixes #2310
 ```
 
-### Título do commit <tipo>(escopo): assunto
+Foi possível perceber que em nossa mensagem de commit utilizamos um tipo e um escopo além do assunto no título, o que isso significa? Basicamente diz sobre o estamos trabalhando (_se é um bug, feature, test e etc_) e qual parte do projeto.
 
-
-Para a escrita do assunto deve se seguir alguns padrões que estão abaixo:
-
-* A primeira linha não pode ter mais de 70 linhas;
-* Separe o título da descrição com uma linha em branco;
-* Não se deve terminar um título com ponto;
-* Use do imperativo para fazer a escrita do assunto.
-
-**tipos permitidos**
+Em meio a isso utilizamos alguns tipos para trazer mais clareza no log de commit e esses tipos são os seguintes:
 
 * feat (Uma nova funcionalidade para o usuário)
 
@@ -79,9 +75,12 @@ Para a escrita do assunto deve se seguir alguns padrões que estão abaixo:
 
 * test (adicionar testes, refatorar testes)
 
-
 * chore (Atualização de tarefas)
 
-### Descrição do commit <corpo>
+**Descrição do commit <corpo>**
 
-A descrição deve conter o `o que` e o `por que` daquela commit escrito de forma sucinta ao invês de conter o `como` foi feito
+A descrição deve conter o `o que` e o `por que` daquela commit escrito de forma sucinta ao invês de conter o `como` foi feito, ser sucinta e passar para o desenvolvedor que ler o log do commit conseguir entender, claro que nem sempre se faz necessário um corpo dentro de um commit, mas é interessante pois você consegue agregar mais valor dentro do mesmo com as informações que não caberiam dentro do título do commit no geral
+
+**Rodapé**
+
+O rodapé é utilizado basicamente pra indicar um metadado ou trazer uma referência de que atividade, issue aquilo se trata e se tornar rastreavel do por que se fez necessário aquela commit.
