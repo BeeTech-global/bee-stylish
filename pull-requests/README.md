@@ -1,4 +1,4 @@
-# Manual Campeão de Pull Requests
+# Guia do Pull Request Campeão
 
 Se você não vive em Nárnia, `dev` saber a importância de um Pull Request bem estruturado e com aquela dose de carinho e empatia. 
 
@@ -58,7 +58,7 @@ Gosta de analogias? Aqui vai uma: Imagine que o projeto é uma casinha da hora q
 Se você traz algo bem exótico para dentro de casa, perguntaremos o porquê disso e discutiremos sobre. 
 Analisaremos se vale a pena mexer tanto nos móveis para acomodar este seu item, se todos ficarão confortáveis e por aí vai.
 
-Perceba: Todo este processo envolve os residentes que estão deveras preocupados com os eventuais impactos. Nada pessoal.
+Note: Todo este processo envolve os residentes que estão deveras preocupados com os eventuais impactos. Nada pessoal.
 
 Logo, largue o `Coder Ego` pois só há uma preocupação: A casa estar em ordem. 
 
@@ -97,7 +97,7 @@ Seja visual: Tire prints das alterações; grave GIFs dos fluxos. Isto ajuda (e 
   <img src="https://cdn.rawgit.com/Beetech-global/bee-stylish/master/pull-requests/pr-2.jpg" alt="">
 </p>
 
-_(Perceba as mensagens de commit bem escritas, ajudam um bocado e podem substituir a descrição na moral)_
+_(Repare que as mensagens de commit bem escritas ajudam um bocado e podem substituir a descrição na moralzinha)_
 
 ### Comentários
 
@@ -113,7 +113,7 @@ Comente para elogiar, perguntar e, principalmente, *propor* melhorias. Sim, não
   <img src="https://cdn.rawgit.com/Beetech-global/bee-stylish/master/pull-requests/comment-1.jpg" alt="">
 </p>
 
-Veja esta coisinha, só faltou o autor corroborar com uma sugestão. Coisa da qual o cara estranho em seguida o faz. Perceba o empenho em ajudar.
+Veja esta coisinha, só faltou o autor corroborar com uma sugestão. Coisa da qual o cara estranho em seguida o faz. Perceba, Ivair, o empenho em ajudar.
 
 ---
 
