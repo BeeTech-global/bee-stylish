@@ -6,7 +6,7 @@ Code Review é um dos processos que mais exigem atenção da equipe e, logo, tem
 
 Às vezes, pode ser trabalhoso. Afinal, temos que, além de analisar o código, verificar se as peças da estrutura se encaixam e respeitam a arquitetura vigente, se não há falhas de segurança e etc.
 
-Também, uma maravilhosa ferramenta para ajudarmos disseminarmos conhecimento e ajudar a melhorar o código dos nossos coleguinhas.
+Também, uma maravilhosa ferramenta para ajudar a disseminar conhecimento e melhorar o código dos nossos coleguinhas.
 
 Este guia tem como objetivo despertar aquele bom senso que vive dentro de _você_.
 
