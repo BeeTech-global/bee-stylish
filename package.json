@@ -1,7 +1,7 @@
 {
   "name": "bee-stylish",
   "version": "1.0.0",
-  "description": "Um simples styleguide campeão para sua vida",
+  "description": "Styleguides alegres e ousados da BeeTech",
   "scripts": {
     "start": "gitbook serve",
     "build": "gitbook build ./",
