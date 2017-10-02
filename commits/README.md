@@ -35,13 +35,13 @@ O time há de concordar com uma convenção que siga os seguintes aspectos:
 Pois depois de tudo que foi dito acima você gostaria de ver um log assim:
 
 <p align="center">
-  ![Um log de commit massa](good-commit-log.png)
+  <img src="https://cdn.rawgit.com/Beetech-global/bee-stylish/master/commits/good-commit-log.png" alt="Um log de commit massa">
 </p>
 
 ao invés de algo similar a isto
 
 <p align="center">
-  ![Um log de commit nada massa](bad-commit-log.png)
+  <img src="https://cdn.rawgit.com/Beetech-global/bee-stylish/master/commits/bad-commit-log.png" alt="Um log de commit NADA massa">
 </p>
 
 
