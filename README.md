@@ -13,3 +13,4 @@
 ## Guias
 
 * [Guia do Pull Request Campeão](pull-requests/README.md)
+* [Guia do Commit Amigão](commits/README.md)
