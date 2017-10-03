@@ -1,7 +1,7 @@
 # Guia do Commit Amigão
 
 ```
-- Ow, o que esste commit "whatever" faz?
+- Ow, o que este commit "whatever" faz?
 - Sei lá, abre o código aí.
 - Assim não, fera...
 ```
@@ -68,7 +68,7 @@ Já existem convenções bem estabelecidas. No nosso caso, usamos o petardo mara
 
 Exemplo:
 
-`feat(bregumulo): adiciona endpoint /whatever/`.
+`feat(bregumelo): adiciona endpoint /whatever/`.
 
 Os valores permitidos para o `tipo` são:
 
@@ -93,7 +93,7 @@ Exemplo:
 
 
 ```
-refactor(bregumulo): modifica a chamada do model
+refactor(bregumelo): modifica a chamada do model
 
 A chamada anterior sofreu alerações de contrato, logo, foi necessário
 refatorá-la.
