@@ -72,13 +72,13 @@ Exemplo:
 
 Os valores permitidos para o `tipo` são:
 
-* feat (Uma nova funcionalidade)
-* style (formatação geral no código. Não confundir com CSS)
-* refactor (refatoração de código de produção)
-* test (adicionar/refatorar testes)
-* fix (adivinha qual é esse)
-* docs (e esse também)
-* chore (atualização de tarefas ou código que não está relacionado a produção)
+* feat _(nova funcionalidade)_
+* style _(formatação geral no código. Não confundir com CSS)_
+* refactor _(refatoração de código de produção)_
+* test _(adicionar/refatorar testes)_
+* fix _(adivinha qual é esse)_
+* docs _(e esse também)_
+* chore _(atualização de tarefas ou código que não está relacionado a produção)_
 
 
 ### Corpo
@@ -116,8 +116,7 @@ Closes #123
 ```
 
 
-
-## Referências
+## Links
 
 
 * [Karma Commit Messages](http://karma-runner.github.io/1.0/dev/git-commit-msg.html)
