@@ -107,7 +107,7 @@ refatorá-la.
 Basicamente, um indicador de metadados. Aqui você referencia quais issues estão relacionadas, qual issue este commit encerra e etc.
 
 ```
-refactor(bregumulo): modifica a chamada do model
+refactor(bregumelo): modifica a chamada do model
 
 A chamada anterior sofreu alterações de contrato, logo, foi necessário
 refatorá-la.
