@@ -95,7 +95,7 @@ Exemplo:
 ```
 refactor(bregumelo): modifica a chamada do model
 
-A chamada anterior sofreu alerações de contrato, logo, foi necessário
+A chamada anterior sofreu alterações de contrato, logo, foi necessário
 refatorá-la.
 
 ```
@@ -109,7 +109,7 @@ Basicamente, um indicador de metadados. Aqui você referencia quais issues estã
 ```
 refactor(bregumulo): modifica a chamada do model
 
-A chamada anterior sofreu alerações de contrato, logo, foi necessário
+A chamada anterior sofreu alterações de contrato, logo, foi necessário
 refatorá-la.
 
 Closes #123
