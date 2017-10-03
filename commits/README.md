@@ -47,7 +47,7 @@ ao invés de algo similar a isto
 
 ## Anatomia do Commit Amigão
 
-Já existem convenções bem estabelecidas. No nosso caso, usamos o petardo maravilho do _Karma Commit Messages_.
+Já existem convenções bem estabelecidas. No nosso caso, usamos o petardo maravilhoso do _Karma Commit Messages_.
 
 *Formato Bonitão*
 
