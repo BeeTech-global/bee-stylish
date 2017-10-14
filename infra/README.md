@@ -11,7 +11,7 @@ Calma pequeno gafanhoto, deixa eu contar história primeiro...
 
 Nós da [BeeTech](https://www.beetech.global) achamos que todo time deve ter a liberdade de explorar idéias e consumir novas tecnologias, então, junto ao nosso CI [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines), implementamos também, alguns "[custom builds](https://confluence.atlassian.com/bitbucket/run-pipelines-manually-861242583.html)" bem úteis para todos e que vamos tratar nesse guia.
 
-Para termos essa flexibilidade na infra, sem prejudicar ou onerar ninguém, optamos por utilizar a [Heroku](https://www.heroku.com) - se você não conhece a Heroku, deveria - como [PaaS](https://pt.wikipedia.org/wiki/Plataforma_como_servi%C3%A7o).
+Para termos essa flexibilidade na infra, sem prejudicar ou onerar ninguém, optamos por utilizar a [Heroku](https://www.heroku.com) - se você não conhece a Heroku, taí a desculpa perfeita pra aprender - como [PaaS](https://pt.wikipedia.org/wiki/Plataforma_como_servi%C3%A7o).
 
 Basicamente, um fluxo de desenvolvimento se baseia em:
 
@@ -151,7 +151,7 @@ Simples assim, e com isso, o desenvolvedor é totalmente capaz de configurar se 
 
 ## Segundo passo: Doutrinando o time
 
-"Com grandes poderes requerem grandes responsabilidaes", dizia o sábio Tio Joe, é verdade. Como você pode ver no exemplo acima, a configuração do Pipelines fica totalmente disponível para os desenvolvedores, que podem adicionar sua branch de trabalho para que faça uma entrega contínua, rode scripts e tudo mais que ele achar necessário.
+"Com grandes poderes requerem grandes responsabilidaes", dizia o sábio [Tio Ben](https://pt.wikipedia.org/wiki/Ben_Parker), é verdade. Como você pode ver no exemplo acima, a configuração do Pipelines fica totalmente disponível para os desenvolvedores, que podem adicionar sua branch de trabalho para que faça uma entrega contínua, rode scripts e tudo mais que ele achar necessário.
 Para utilizar os _custom builds_ e criar/atualizar o ambiente, basta que vá a lista de branches e no menu de ações, selecione **Run Pipeline for a branch** e selecionar a ação necessária.
 
 ![Branches - Custom Build](Seleção_005.png)
