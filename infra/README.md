@@ -1,4 +1,4 @@
-# Guia da Infra Matadora
+# Guia da Infra do Dev Boladão
 
 Sabe aquela funcionalidade bacanuda que você cria, ou aquela vontade destruidora de testar aquela funcionalidade da versão mais atual da linguagem tal, mas que sempre empaca no _cara da infra_ porque ele já está cheio de tarefas _mais importantes que a sua_? 
 
@@ -28,7 +28,7 @@ Basicamente, um fluxo de desenvolvimento se baseia em:
 - [Criar um Pull Request](../pull-requests/README.md)
 - Publicar no ambiente correto (desenvolvimento, teste, produção e etc)
 
-Mas aí você para e pensa: "mas e se eu quiser criar algo novo, testar uma biblioteca ou uma versão nova da linguagem? Não posso jogar em nenhum dos ambientes". Zatamênti meu caro, você não pode e nem deve!!!! E é aqui que começa: o **GUIA DA INFRA MATADORA**!
+Mas aí você para e pensa: "mas e se eu quiser criar algo novo, testar uma biblioteca ou uma versão nova da linguagem? Não posso jogar em nenhum dos ambientes". Zatamênti meu caro, você não pode e nem deve!!!! E é aqui que começa: o **GUIA DA INFRA DO DEV BOLADÃO**!
 
 ![Que rufem os tambores](rafur-os-tombares.gif)
 
