@@ -1,9 +1,16 @@
 # Guia da Infra Matadora
 
-Sabe aquela funcionalidade bacanuda que você cria, ou aquela vontade destruidora de testar aquela funcionalidade da versão mais atual da linguagem tal, mas que sempre empaca no "cara da infra" porque ele já está cheio de tarefas "mais importantes que a sua"? 
-Você pode pensar: "ah, mas agora eu uso Docker, posso subir um container rapidinho e mostrar pro tester na minha máquina". #shame #shame #shame
+Sabe aquela funcionalidade bacanuda que você cria, ou aquela vontade destruidora de testar aquela funcionalidade da versão mais atual da linguagem tal, mas que sempre empaca no _cara da infra_ porque ele já está cheio de tarefas _mais importantes que a sua_? 
 
-Não meu caro, o que o "cara da infra" te diria? Que isso precisa rodar em um ambiente separado, correto? Mas, então porquê não automatizar isso? Porque você mesmo não sobe seu ambiente para testar suas idéias e de quebra, cria um host para repassar para o time de testes ou para aquele seu gerente que só acredita vendo.
+Você pode pensar: 
+
+```
+- ah, mas agora eu uso Docker, posso subir um container rapidinho e mostrar pro tester na minha máquina.
+```
+
+![Shame on you!!!](shame-on-you.jpg)
+
+Não meu caro, o que o _cara da infra_ te diria? Que isso precisa rodar em um ambiente separado, correto? Mas, então porquê não automatizar isso? Porque você mesmo não sobe seu ambiente para testar suas idéias e de quebra, cria um host para repassar para o time de testes ou para aquele seu gerente que só acredita vendo.
 
 ## Falou, falou e não mostrou nada
 
@@ -19,9 +26,9 @@ Basicamente, um fluxo de desenvolvimento se baseia em:
 - Criar uma branch local baseada no nome da tarefa (ex.: bee-1234)
 - [Comitar suas alterações](../commits/README.md)
 - [Criar um Pull Request](../pull-requests/README.md)
-- Publicar no ambiente de correto (desenvolvimento, teste, produção e etc)
+- Publicar no ambiente correto (desenvolvimento, teste, produção e etc)
 
-Mas aí você pára e pensa: "mas e se eu quiser criar algo novo, testar uma biblioteca ou uma versão nova da linguagem? Não posso jogar em nenhum dos ambientes". Zatamênti meu caro, você não pode e nem deve!!!! E é aqui que começa: o **GUIA DA INFRA MATADORA**!
+Mas aí você para e pensa: "mas e se eu quiser criar algo novo, testar uma biblioteca ou uma versão nova da linguagem? Não posso jogar em nenhum dos ambientes". Zatamênti meu caro, você não pode e nem deve!!!! E é aqui que começa: o **GUIA DA INFRA MATADORA**!
 
 ![Que rufem os tambores](rafur-os-tombares.gif)
 
@@ -159,8 +166,12 @@ Para utilizar os _custom builds_ e criar/atualizar o ambiente, basta que vá a l
 
 ## Terceiro passo: Testando coisas no ambiente
 
-- _Mas como vou testar uma versão diferente da linguagem?_
-- _informar a versão no engines do package json basta você jovem padawan._
+``` 
+- Mas como vou testar uma versão diferente da linguagem?
+- Informar a versão no engines do package json basta você jovem padawan.
+```
+
+![Yoda](yoda.jpg)
 
 ```
 {
