@@ -10,7 +10,7 @@ Você pode pensar:
 
 ![Shame on you!!!](shame-on-you.jpg)
 
-Não meu caro, o que o _cara da infra_ te diria? Que isso precisa rodar em um ambiente separado, correto? Mas, então porquê não automatizar isso? Porque você mesmo não sobe seu ambiente para testar suas idéias e de quebra, cria um host para repassar para o time de testes ou para aquele seu gerente que só acredita vendo.
+Não meu caro, o que o _cara da infra_ te diria? Que isso precisa rodar em um ambiente separado, correto? Mas, então por que não automatizar isso? Porque você mesmo não sobe seu ambiente para testar suas idéias e de quebra, cria um host para repassar para o time de testes ou para aquele seu gerente que só acredita vendo.
 
 ## Falou, falou e não mostrou nada
 
