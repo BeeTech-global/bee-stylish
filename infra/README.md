@@ -41,7 +41,7 @@ Como nosso controle de versão atual é o [Bitbucket](https://www.bitbucket.org)
 - facilidade de configuração 
 - utilizar fortemente o Docker
 
-Por utilizar Docker, já ganhamos máxima liberdade na criação do ambiente de testes e garante total compatilidade entre os ambientes, já que podemos utilizar o mesmo container em todos.
+Por utilizar Docker, já ganhamos máxima liberdade na criação do ambiente de testes e garante total compatibilidade entre os ambientes, já que podemos utilizar o mesmo container em todos.
 
 Então claro, que o primeiro passo, é habilitar o Pipelines para o seu projeto, isso é fácil, basta ir nas configurações do projeto, e no menu lateral, selecionar Pipelines e habilitá-lo, simples assim. 
 
@@ -227,7 +227,7 @@ Para utilizar os _custom builds_ e criar/atualizar o ambiente, basta que vá a l
 Entendeu? Quer testar uma versão nova do Node? Só informar ali em *engines* a versão que você quer e pronto!
 Usa PHP? Não tem problema, informa no *composer.json*, Python? Vai no *requirements.txt* e por aí vai, é mais simples do que parece ;)
 
-Caso precise rodar alguma tarefa a antes ou depois do build, mas apenas na Heroku, temos a opção de criar em **scripts** os gatilhoes pré-configurados da Heroku: pre-build ou post-build. Na [documentação](https://devcenter.heroku.com/) deles você encontra mais opções.
+Caso precise rodar alguma tarefa a antes ou depois do build, mas apenas na Heroku, temos a opção de criar em **scripts** os gatilhos pré-configurados da Heroku: pre-build ou post-build. Na [documentação](https://devcenter.heroku.com/) deles você encontra mais opções.
 
 ![Build bonito](Seleção_007.png)
 
@@ -235,6 +235,6 @@ Caso precise rodar alguma tarefa a antes ou depois do build, mas apenas na Herok
 
 Como podemos ver, com isso, todos do time ganham total liberdade de aplicar suas idéias, testar novas funcionalidades ou mesmo trabalhar tranquilamento em uma correção, sabendo que seu trabalho não irá afetar ninguém que esteja utilizando o mesmo ambiente. Tudo fica perfeitamente isolado e funcionando perfeitamente.
 
-Sim, é esta a infra matadora, sem trabalho, sem estresse e linda de ver funcionando.
+Sim, esta é a infra matadora, sem trabalho, sem estresse e linda de ver funcionando.
 
 ![Done](Expendables_2_Chuck_Norris.jpg)
