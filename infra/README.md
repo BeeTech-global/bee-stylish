@@ -158,7 +158,7 @@ Simples assim, e com isso, o desenvolvedor é totalmente capaz de configurar se 
 
 ## Segundo passo: Doutrinando o time
 
-"Com grandes poderes requerem grandes responsabilidaes", dizia o sábio [Tio Ben](https://pt.wikipedia.org/wiki/Ben_Parker), é verdade. Como você pode ver no exemplo acima, a configuração do Pipelines fica totalmente disponível para os desenvolvedores, que podem adicionar sua branch de trabalho para que faça uma entrega contínua, rode scripts e tudo mais que ele achar necessário.
+"Com grandes poderes requerem grandes responsabilidades", dizia o sábio [Tio Ben](https://pt.wikipedia.org/wiki/Ben_Parker), é verdade. Como você pode ver no exemplo acima, a configuração do Pipelines fica totalmente disponível para os desenvolvedores, que podem adicionar sua branch de trabalho para que faça uma entrega contínua, rode scripts e tudo mais que ele achar necessário.
 Para utilizar os _custom builds_ e criar/atualizar o ambiente, basta que vá a lista de branches e no menu de ações, selecione **Run Pipeline for a branch** e selecionar a ação necessária.
 
 ![Branches - Custom Build](Seleção_005.png)
