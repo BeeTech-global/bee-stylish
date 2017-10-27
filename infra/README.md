@@ -154,11 +154,11 @@ Nesta configuração, temos:
 
 A variável $NPM_TOKEN você pode criar nas configurações do Pipelines, indo em **Environment Variables**. As outras são geradas automagicamente pelo próprio Pipelines.
 
-Simples assim, e com isso, o desenvolvedor é totalmente capaz de configurar se próprio ambiente com poucos cliques e repassá-lo ao time de testes sem depender do *cara da infra* ou daquele amigão que manja de servidores.
+Simples assim, e com isso, o desenvolvedor é totalmente capaz de configurar seu próprio ambiente com poucos cliques e repassá-lo ao time de testes sem depender do *cara da infra* ou daquele amigão que manja de servidores.
 
 ## Segundo passo: Doutrinando o time
 
-"Com grandes poderes requerem grandes responsabilidades", dizia o sábio [Tio Ben](https://pt.wikipedia.org/wiki/Ben_Parker), é verdade. Como você pode ver no exemplo acima, a configuração do Pipelines fica totalmente disponível para os desenvolvedores, que podem adicionar sua branch de trabalho para que faça uma entrega contínua, rode scripts e tudo mais que ele achar necessário.
+"Com grandes poderes vêm grandes responsabilidades", dizia o sábio [Tio Ben](https://pt.wikipedia.org/wiki/Ben_Parker), é verdade. Como você pode ver no exemplo acima, a configuração do Pipelines fica totalmente disponível para os desenvolvedores, que podem adicionar sua branch de trabalho para que faça uma entrega contínua, rode scripts e tudo mais que ele achar necessário.
 Para utilizar os _custom builds_ e criar/atualizar o ambiente, basta que vá a lista de branches e no menu de ações, selecione **Run Pipeline for a branch** e selecionar a ação necessária.
 
 ![Branches - Custom Build](Seleção_005.png)
@@ -227,13 +227,13 @@ Para utilizar os _custom builds_ e criar/atualizar o ambiente, basta que vá a l
 Entendeu? Quer testar uma versão nova do Node? Só informar ali em *engines* a versão que você quer e pronto!
 Usa PHP? Não tem problema, informa no *composer.json*, Python? Vai no *requirements.txt* e por aí vai, é mais simples do que parece ;)
 
-Caso precise rodar alguma tarefa a antes ou depois do build, mas apenas na Heroku, temos a opção de criar em **scripts** os gatilhos pré-configurados da Heroku: pre-build ou post-build. Na [documentação](https://devcenter.heroku.com/) deles você encontra mais opções.
+Caso precise rodar alguma tarefa antes ou depois do build, mas apenas na Heroku, temos a opção de criar em **scripts** os gatilhos pré-configurados da Heroku: pre-build ou post-build. Na [documentação](https://devcenter.heroku.com/) deles você encontra mais opções.
 
 ![Build bonito](Seleção_007.png)
 
 ## Thats all folks
 
-Como podemos ver, com isso, todos do time ganham total liberdade de aplicar suas idéias, testar novas funcionalidades ou mesmo trabalhar tranquilamento em uma correção, sabendo que seu trabalho não irá afetar ninguém que esteja utilizando o mesmo ambiente. Tudo fica perfeitamente isolado e funcionando perfeitamente.
+Como podemos ver, com isso, todos do time ganham total liberdade de aplicar suas idéias, testar novas funcionalidades ou mesmo trabalhar tranquilamento em uma correção, sabendo que seu trabalho não irá afetar ninguém que esteja utilizando o mesmo ambiente. Tudo fica totalmente isolado e funcionando perfeitamente.
 
 Sim, esta é a infra matadora, sem trabalho, sem estresse e linda de ver funcionando.
 
