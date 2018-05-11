@@ -94,5 +94,7 @@ Segue aqui uma lista de algumas ferramentas úteis para o trabalho remoto e até
 
 # Algumas dicas de organização pessoal
 
-* Tenha horários pré-definidos para o trabalho, almoço e descanso - Por vezes o trabalhador remoto se perde no tempo e 
-
+* Tenha horários pré-definidos para o trabalho, almoço e descanso - Por vezes o trabalhador remoto se perde no tempo e acaba permanecendo mais tempo do que o necessário "no expediente".
+* Tenha um local de trabalho; trabalhar na cama, na sala em frente a TV, tudo isso parece muito legal e confortável, mas na prática se mostra muito ruim, principalmente para sua postura e foco. Ter um local fixo de trabalho (um home office, um café e etc) é sempre bom para criar uma rotina e melhora em muito sua concentração.
+* Atenção as ferramentas: sim, é m-u-i-t-o importante você prestar atenção nas ferramentas de comunicação (como o Slack e E-mails) pois lá estão informações importantes que podem te auxiliar na tarefa.
+* Avise a todos que você está trabalhando no horário definido e que tentem não te interromper, isso é realmente muito importante, principalmente amigos e familiares que entram em seu ambiente sem bater e etc.
