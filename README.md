@@ -15,3 +15,4 @@
 * [Guia do Pull Request Campeão](pull-requests/README.md)
 * [Guia do Commit Amigão](commits/README.md)
 * [Guia da Infra do Dev Boladão](infra/README.md)
+* [Guia do Trabalho Remoto](trabalho-remoto/README.md)
