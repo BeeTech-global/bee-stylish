@@ -5,6 +5,8 @@ Junto com os repositories, utilizamos os services (camada de negócio) e os cont
 
 Esse padrão é utilizado da seguinte maneira: Cada camada/domínio/entidade de dados deve possuir um repository exclusivo, ou seja, um serviço não deve ter mais de um repository e um repository não deve ser chamado por mais de um serviço, porém um repository pode acessar mais de uma fonte de dados caso necessário
 
+![image repository pattern](repository-pattern.jpg)
+
 ## Repositories
 Os repositories são responsáveis pela camada de dados, eles que sabem onde e como devem buscar/persistir/alterar os dados. Um repository pode ser uma simples abstração da camada de banco de dados, uma abstração de uma request http para uma API externa ou até uma ferramenta de pub/sub por exemplo. Ele não deve expor para quem o consome (services) métodos referentes ao modo de acesso aos dados (repository.post no caso de API ou repository.write no caso de arquivos, o correto é um nome genérico para as ações, nesse caso repository.create seria o ideal), exemplo:
 
@@ -19,7 +21,7 @@ class CustomerRepository {
   async create(data) {
     try {
       const result = await this.request.post({ 
-        uri: 'https://api.com/v1customers' , 
+        uri: 'https://api.com/v1/customers', 
         body: data 
       });
    } catch (err) {
@@ -27,7 +29,7 @@ class CustomerRepository {
       throw new Error('Ops! something wrong!!!');
    }
 
-    return result .id;
+    return result.id;
   }
 }
 
