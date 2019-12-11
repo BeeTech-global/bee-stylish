@@ -20,3 +20,5 @@
 * Back-end
     * NodeJS
       * [Nomenclatura e estrutura de arquivos](back-end/node-js/nomenclatura-estrutura-arquivos.md)
+* POO (Programação Orientada a Objeto)
+    * [SOLID](poo/solid/README.md)
