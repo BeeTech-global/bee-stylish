@@ -16,6 +16,7 @@
 * [Guia do Commit Amigão](commits/README.md)
 * [Guia da Infra do Dev Boladão](infra/README.md)
 * [Guia do Trabalho Remoto](trabalho-remoto/README.md)
+* [Guia de Testes Marotos](tests/README.md)
 * [Padrão de Repository](repository-pattern/README.md)
 * Back-end
     * NodeJS
