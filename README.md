@@ -17,7 +17,7 @@
 * [Guia da Infra do Dev Boladão](infra/README.md)
 * [Guia do Trabalho Remoto](trabalho-remoto/README.md)
 * [Guia de Testes Marotos](tests/README.md)
-* [Padrão de Repository](repository-pattern/README.md)
+* [Patterns](patterns/README.md)
 * Back-end
     * NodeJS
       * [Nomenclatura e estrutura de arquivos](back-end/node-js/nomenclatura-estrutura-arquivos.md)
