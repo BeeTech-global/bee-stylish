@@ -5,13 +5,14 @@
 ---
 
 * [Teste Unitário](#teste-unitário)
-* [Teste de Integração](#teste-de-integração)
+* [Teste de Integração](#teste-de-integracao)
 * [Teste Funcional](#teste-funcional-caixa-preta)
 * [Teste de Integridade (performance, carga, stress](#teste-de-integridade-performance-carga-stress)
 * [Teste de Sanidade (Smoke test, health check)](#teste-de-sanidade-smoke-test-health-check)
 * [Teste E2E (aceitação)](#teste-e2e-aceitação)
 * [Teste de Acessibilidade (a11y)](#teste-de-acessibilidade-a11y)
 * [Teste de Regressão](#teste-de-regressão)
+* [Teste Mutante](#teste-mutante)
 
 ---
 
@@ -212,6 +213,20 @@ Pode ser feito manualmente ou ser automatizado
 
 ---
 
+##Teste Mutante
+
+100% de coverage quer dizer que o seu software está bem testado? Não necessariamente!
+
+O coverage só diz que os seus testes passaram por toda linha de codigo, branches etc,
+mas não quer dizer que você passou por todos os cenarios possíveis,
+ai que entre os testes mutantes, onde por meio de algoritmos genetico,
+ele cria uma 'população'/zombies de testes para testar o seu teste!
+e ele verifica quantos zombies foram de acordo com o que os seus testes
+dizem estar.
+
+um exemplo de biblioteca de teste mutantes para javascript é o [Stryker](https://stryker-mutator.io/) 
+
+
 ## Pirâmide de testes
 
 ![image Pirâmide de testes](pyramid.png)
@@ -342,7 +357,7 @@ Desvantagens:
 
 Quando usar `spies`:
 
-`Spies` podem ser usados sempre que for necessário ter assertividade de uma dependência real ou, como em nosso caso, em um `fake`. Para casos onde é necessário ter muitos comportamos é provável que [stubs](#stub) e [mocks](mock) venham melhor a calhar.
+`Spies` podem ser usados sempre que for necessário ter assertividade de uma dependência real ou, como em nosso caso, em um `fake`. Para casos onde é necessário ter muitos comportamos é provável que [stubs](#stub) e [mocks](#mock) venham melhor a calhar.
 
 ### Stub
 
