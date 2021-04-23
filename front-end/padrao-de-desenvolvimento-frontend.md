@@ -77,7 +77,7 @@ Com isso, será muito mais simples adicionar uma nova _presentation_ independent
 
 `adapters` - Conversão de dados que seja mais acessível e conveniente, para `entities` e `usecases`.
 
-`factories` - Serve para unir, sem nenhum regra de negócio ou lógica, implementações em comum, que exporta elas de forma centralizada, para facilitar importação de múltiplos recursos, por exemplo no _presentation_.
+`factories` - Serve para unir, sem nenhum regra de negócio ou lógica, implementações em comum, que exporta elas de forma centralizada, para facilitar o que seria importação de múltiplos recursos, no _presentation_ ou outro.
 
 `repositories` - Centralização de configurações para _requests_. Normalmente consome recursos de `infra/`.
 
