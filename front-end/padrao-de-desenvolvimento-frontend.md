@@ -1,6 +1,8 @@
 # Padrão de desenvolvimento frontend
 
-![image](https://user-images.githubusercontent.com/2935122/115732148-1933a380-a35e-11eb-9f52-55631f5eeb0f.png)
+<p align="center" width="100%">
+  <img width="50%" src="https://user-images.githubusercontent.com/2935122/115732148-1933a380-a35e-11eb-9f52-55631f5eeb0f.png">
+</p>
 
 No futuro, um novo framework deve nascer e ele pode ser o mais adequado de ser usado em algum projeto da Remessa.
 
@@ -120,11 +122,15 @@ Na camada `core` sendo `module` e `shared` contém todo o código mais important
 
 Existe algumas regras sobre dependencias entre as camadas.
 
-![image](https://user-images.githubusercontent.com/2935122/115903958-9896a500-a43a-11eb-8663-50b6798d15cd.png)
+<p align="center" width="100%">
+  <img width="50%" src="https://user-images.githubusercontent.com/2935122/115903958-9896a500-a43a-11eb-8663-50b6798d15cd.png">
+</p>
 
 Outro exemplo visual:
 
-![image](https://user-images.githubusercontent.com/2935122/115903965-9af8ff00-a43a-11eb-9e68-8b8d31423b71.png)
+<p align="center" width="100%">
+  <img width="50%" src="https://user-images.githubusercontent.com/2935122/115903965-9af8ff00-a43a-11eb-9e68-8b8d31423b71.png)">
+</p>
 
 É importante lembrar desses conceitos do Clean Arch e até mesmo princípios do SOLID ao criar e escrever um arquivo.
 
@@ -136,13 +142,17 @@ Exemplos básicos: _Authentication_, _Payments_ e _Receiving_.
 
 ### Patterns
 
-![image](https://user-images.githubusercontent.com/2935122/115890798-b3155200-a42b-11eb-87d7-1f96526a66d1.png)
+<p align="center" width="100%">
+  <img width="50%" src="https://user-images.githubusercontent.com/2935122/115890798-b3155200-a42b-11eb-87d7-1f96526a66d1.png">
+</p>
 
 Existe vários _patterns_ e talvez possamos recomendar [SOLID](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898) em especial para camada `core`.
 
 ### Custom Hooks
 
-![custom-hooks](https://user-images.githubusercontent.com/2935122/115892970-130cf800-a42e-11eb-80c5-64d866fc7ab7.png)
+<p align="center" width="100%">
+  <img width="75%" src="https://user-images.githubusercontent.com/2935122/115892970-130cf800-a42e-11eb-80c5-64d866fc7ab7.png">
+</p>
 
 Podemos usar os Hooks para centralizar regras comuns dos `components` neles mesmo. Isso permite que não tenha todas as regras misturadas.
 
