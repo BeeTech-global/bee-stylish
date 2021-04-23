@@ -79,7 +79,7 @@ Com isso, será muito mais simples adicionar uma nova _presentation_ independent
 
 `repositories` - Centralização de configurações para _requests_. Normalmente consome recursos de `infra/`.
 
-`validation` - _Schemas_ de validação como os do [Yup](https://meet.google.com/qwm-gurh-ufj) - dê preferência ele - e lógicas em JS com validações.
+`validation` - _Schemas_ de validação como os do [Yup](https://www.npmjs.com/package/yup) - dê preferência ele - e lógicas em JS com validações.
 
 `constants` - Constantes em _upper case_.
 
