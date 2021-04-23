@@ -116,6 +116,18 @@ Com isso, será muito mais simples adicionar uma nova _presentation_ independent
 
 Na camada `core` sendo `module` e `shared` contém todo o código mais importante de `business` e `application`. Está com uma estrutura escalável e organizado por _modules_ para permitir fácil organização por jornada do usuário e _Atomic Design_ para organização dos componentes.
 
+#### Dependency rules
+
+Existe algumas regras sobre dependencias entre as camadas.
+
+![image](https://user-images.githubusercontent.com/2935122/115903958-9896a500-a43a-11eb-8663-50b6798d15cd.png)
+
+Outro exemplo visual:
+
+![image](https://user-images.githubusercontent.com/2935122/115903965-9af8ff00-a43a-11eb-9e68-8b8d31423b71.png)
+
+É importante lembrar desses conceitos do Clean Arch e até mesmo princípios do SOLID ao criar e escrever um arquivo.
+
 ### Jornada do usuário
 
 Exemplos básicos: _Authentication_, _Payments_ e _Receiving_.
