@@ -7,15 +7,11 @@ No futuro, um novo framework deve nascer e ele pode ser o mais adequado de ser u
 Clean Architecture será útil no frontend para que regras de negócios fiquem desacopladas da camada de `presentation`.
 Com isso, será muito mais simples adicionar uma nova _presentation_ independente da decisão do mercado, hive ou da Remessa.
 
-### Pastas
-
-### Definições
+## Estrutura de pasta
 
 - Nomes em inglês
 - Nomes devem ser coesos e auto explicativos
 - Nomes no formato kebab-case, ex. Documentos do cliente: customer-documents
-
-#### Estrutura de pasta
 
 ```
 ├── module/
@@ -60,7 +56,7 @@ Com isso, será muito mais simples adicionar uma nova _presentation_ independent
 |   |   |   |   |   ├── [atomic-design-folders]
 ```
 
-#### Entendendo a estrutura
+### Entendendo a estrutura
 
 `module` - Organizar e centralizar arquivos em comum.
 
@@ -105,44 +101,44 @@ Com isso, será muito mais simples adicionar uma nova _presentation_ independent
 
 `shared/components` - Componentes genéricos como _Layout_, _Header_ e _Footer_ organizados via _Atomic Design_.
 
-### Arquivos
+## Arquivos
 
-#### Definições
+### Definições
 
 - Nomes em inglês
 - Nomes no formato title-case para componentes e kebab-case para demais
 - Nomes devem ser coesos e auto explicativos
 - Classes e Functional Component devem ter o mesmo nome do arquivo, ex. Documentos do cliente: _CustomerDocuments.ts_
 
-### Conceitos
+## Conceitos
 
-#### Clean Architecture
+### Clean Architecture
 
 Na camada `core` sendo `module` e `shared` contém todo o código mais importante de `business` e `application`. Está com uma estrutura escalável e organizado por _modules_ para permitir fácil organização por jornada do usuário e _Atomic Design_ para organização dos componentes.
 
-#### Jornada do usuário
+### Jornada do usuário
 
 Exemplos básicos: _Authentication_, _Payments_ e _Receiving_.
 
-### Definições gerais
+## Definições gerais
 
-#### Patterns
+### Patterns
 
 ![image](https://user-images.githubusercontent.com/2935122/115890798-b3155200-a42b-11eb-87d7-1f96526a66d1.png)
 
 Existe vários _patterns_ e talvez possamos recomendar [SOLID](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898) em especial para camada `core`.
 
-#### Custom Hooks
+### Custom Hooks
 
 ![custom-hooks](https://user-images.githubusercontent.com/2935122/115892970-130cf800-a42e-11eb-80c5-64d866fc7ab7.png)
 
 Podemos usar os Hooks para centralizar regras comuns dos `components` neles mesmo. Isso permite que não tenha todas as regras misturadas.
 
-#### Interfaces & Types
+### Interfaces & Types
 
-Use sempre que possível.
+Use TypeScript.
 
-### Referências
+## Referências
 
 - [Explicação bacana sobre _Entities_, _Use Cases_ e _Adapters_](https://www.objective.com.br/insights/clean-architecture-com-mvvm/#:~:text=A%20Clean%20Architecture%20consiste%20em,Interface%20Adapters%E2%80%9D%20e%20assim%20sucessivamente.)
 - [_Post_ com uma definição bem clara sobre o que vai em _Data_, _Domain_ e _Infra_, com exemplo em React](https://dev.to/joaosczip/clean-architecture-a-little-introduction-4ag6)
