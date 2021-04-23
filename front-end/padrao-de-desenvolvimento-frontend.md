@@ -129,7 +129,7 @@ Existe algumas regras sobre dependencias entre as camadas.
 Outro exemplo visual:
 
 <p align="center" width="100%">
-  <img width="50%" src="https://user-images.githubusercontent.com/2935122/115903965-9af8ff00-a43a-11eb-9e68-8b8d31423b71.png)">
+  <img width="50%" src="https://user-images.githubusercontent.com/2935122/115903965-9af8ff00-a43a-11eb-9e68-8b8d31423b71.png">
 </p>
 
 É importante lembrar desses conceitos do Clean Arch e até mesmo princípios do SOLID ao criar e escrever um arquivo.
